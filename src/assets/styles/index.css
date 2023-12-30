@@ -233,4 +233,12 @@ section {
   .contact form .input-box .input-field {
     width: 100%;
   }
+
+  .footer {
+    flex-direction: column-reverse;
+  }
+
+  .footer p {
+    margin-top: 2rem;
+  }
 }
