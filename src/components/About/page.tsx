@@ -22,11 +22,11 @@ function About() {
           corporis laborum, similique adipisci!
         </p>
 
-        <div className="btn-box btns">
+        {/* <div className="btn-box btns">
           <a href="#" className="btn">
             Read More...
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );
