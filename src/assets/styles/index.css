@@ -128,10 +128,6 @@ section {
     background-color: var(--bg-color);
   }
 
-  .home {
-    background-image: none;
-  }
-
   #menu-icon {
     display: block;
   }
@@ -198,6 +194,10 @@ section {
     font-size: 50%;
   }
 
+  .home {
+    background-image: none;
+  }
+
   .home-content h1 {
     display: flex;
     flex-direction: row;
@@ -223,7 +223,7 @@ section {
 
 @media (max-width: 462px) {
   .home-content h1 {
-    font-size: 5.2rem;
+    font-size: 5rem;
   }
 
   .education {
@@ -240,5 +240,25 @@ section {
 
   .footer p {
     margin-top: 2rem;
+    text-align: center;
   }
+}
+
+@media (max-width: 371px) {
+  .home {
+    justify-content: center;
+  }
+
+  .home-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-content h1 {
+    font-size: 4.8rem;
+  }
+
+
 }
