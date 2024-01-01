@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
-import './styled.css';
 import { FaTerminal } from 'react-icons/fa6';
 import { FaBars } from 'react-icons/fa6';
 import { FaXmark } from 'react-icons/fa6';
+import './styled.css';
 function Header() {
   const [activeLink, setActiveLink] = useState('#home');
   const [bars, setBars] = useState(false);
@@ -65,6 +65,7 @@ function Header() {
           style={{ '--i': 1 } as React.CSSProperties}
         ></span>
       </a>
+
       <div id="menu-icon" onClick={toggleMenu}>
         {bars ? <FaXmark /> : <FaBars />}
         <span

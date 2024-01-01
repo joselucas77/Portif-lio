@@ -1,7 +1,11 @@
 :root {
-  --bg-color: #081b29;
+  /* --bg-color: #081b29;
   --second-bg-color: #112e42;
   --text-color: #ededed;
+  --main-color: #00abf0; */
+  --bg-color: #9e0004;
+  --second-bg-color: #b9030f;
+  --text-color: #e1e3db;
   --main-color: #00abf0;
 }
 

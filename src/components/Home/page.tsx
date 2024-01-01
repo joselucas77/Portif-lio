@@ -67,7 +67,7 @@ function Home() {
         ></span>
       </div>
 
-      <div className="home-imgHover"></div>
+      {/* <div className="home-imgHover"></div> */}
       <span
         className="animate home-img"
         style={{ '--i': 7 } as React.CSSProperties}
