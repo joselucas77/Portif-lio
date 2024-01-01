@@ -263,9 +263,18 @@ section:nth-child(odd) .animate.scroll,
 
   .projects-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     align-items: center;
     gap: 2.5rem;
+  }
+
+  .projects-layer a {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .projects-layer a svg {
+    font-size: 4rem;
   }
 
 }
