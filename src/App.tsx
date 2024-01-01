@@ -1,6 +1,5 @@
 import About from './components/About/page';
 import Contact from './components/Contact/page';
-import Education from './components/Education/page';
 import Footer from './components/Footer/page';
 import Header from './components/Header/page';
 import Home from './components/Home/page';
@@ -13,7 +12,6 @@ function App() {
       <Header />
       <Home />
       <About />
-      <Education />
       <Skills />
       <Projects />
       <Contact />

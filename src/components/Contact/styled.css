@@ -8,7 +8,13 @@
 .contact {
   min-height: auto;
   padding-bottom: 7rem;
-  background-color: var(--second-bg-color);
+  background-color: var(--bg-color);
+}
+
+.contact h2 {
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .contact form {
@@ -74,6 +80,13 @@
 
 .contact form .textarea-field textarea {
   resize: none;
+}
+
+.contact form .btn-box.btns {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
 .contact form .btn-box.btns .btn {

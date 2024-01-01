@@ -12,6 +12,10 @@ function Projects() {
     <section className="projects" id="projects">
       <h2 className="heading">
         Latest <span>Projects</span>
+        <span
+          className="animate scroll"
+          style={{ '--i': 1 } as React.CSSProperties}
+        ></span>
       </h2>
 
       <div className="projects-container">
@@ -27,6 +31,10 @@ function Projects() {
               <FaArrowUpRightFromSquare />
             </a>
           </div>
+          <span
+            className="animate scroll"
+            style={{ '--i': 2 } as React.CSSProperties}
+          ></span>
         </div>
 
         <div className="projects-box">
@@ -41,6 +49,10 @@ function Projects() {
               <FaArrowUpRightFromSquare />
             </a>
           </div>
+          <span
+            className="animate scroll"
+            style={{ '--i': 3 } as React.CSSProperties}
+          ></span>
         </div>
 
         <div className="projects-box">
@@ -55,6 +67,10 @@ function Projects() {
               <FaArrowUpRightFromSquare />
             </a>
           </div>
+          <span
+            className="animate scroll"
+            style={{ '--i': 4 } as React.CSSProperties}
+          ></span>
         </div>
 
         <div className="projects-box">
@@ -69,6 +85,10 @@ function Projects() {
               <FaArrowUpRightFromSquare />
             </a>
           </div>
+          <span
+            className="animate scroll"
+            style={{ '--i': 5 } as React.CSSProperties}
+          ></span>
         </div>
 
         <div className="projects-box">
@@ -83,6 +103,10 @@ function Projects() {
               <FaArrowUpRightFromSquare />
             </a>
           </div>
+          <span
+            className="animate scroll"
+            style={{ '--i': 6 } as React.CSSProperties}
+          ></span>
         </div>
 
         <div className="projects-box">
@@ -97,6 +121,10 @@ function Projects() {
               <FaArrowUpRightFromSquare />
             </a>
           </div>
+          <span
+            className="animate scroll"
+            style={{ '--i': 7 } as React.CSSProperties}
+          ></span>
         </div>
       </div>
     </section>

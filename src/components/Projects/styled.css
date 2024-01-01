@@ -6,7 +6,13 @@
 }
 
 .projects {
-  background-color: var(--bg-color);
+  background-color: var(--second-bg-color);
+}
+
+.projects h2 {
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .projects-container {
