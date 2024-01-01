@@ -292,6 +292,10 @@ section:nth-child(odd) .animate.scroll,
     font-size: 4rem;
   }
 
+  .contact {
+    padding-bottom: 26rem;
+  }
+
 }
 
 @media (max-width: 462px) {
