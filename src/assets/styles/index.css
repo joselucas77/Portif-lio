@@ -12,10 +12,10 @@
 }
 
 :root {
-  /* --bg-color: #081b29;
+  --bg-color: #081b29;
   --second-bg-color: #112e42;
   --text-color: #ededed;
-  --main-color: #00abf0; */
+  --main-color: #00abf0;
 
   /* --bg-color: #520c30;
   --second-bg-color: #851e25;
@@ -27,10 +27,10 @@
   --text-color: #cccccc;
   --main-color: #292c37; */
 
-  --bg-color: #9e0004;
+  /* --bg-color: #9e0004;
   --second-bg-color: #b9030f;
   --text-color: #e1e3db;
-  --main-color: #00abf0;
+  --main-color: #00abf0; */
 }
 
 html {
@@ -41,6 +41,16 @@ html {
 body {
   background: var(--bg-color);
   color: var(--text-color);
+}
+
+body .Toastify .Toastify__toast-container .Toastify__toast--success {
+  background: var(--main-color);
+  margin-top: 20px;
+  color: var(--text-color);
+}
+
+body .Toastify .Toastify__toast-container .Toastify__toast--error {
+  margin-top: 20px;
 }
 
 section {
