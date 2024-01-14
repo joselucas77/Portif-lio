@@ -1,11 +1,7 @@
 :root {
-  /* --bg-color: #081b29;
+  --bg-color: #081b29;
   --second-bg-color: #112e42;
   --text-color: #ededed;
-  --main-color: #00abf0; */
-  --bg-color: #9e0004;
-  --second-bg-color: #b9030f;
-  --text-color: #e1e3db;
   --main-color: #00abf0;
 }
 
@@ -124,21 +120,6 @@
 .home-sci a:hover::before {
   width: 100%;
 }
-
-/* .home-imgHover {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 48%;
-  height: 102%;
-  background-color: transparent;
-  transition: 3s;
-}
-
-.home-imgHover:hover {
-  background-color: var(--bg-color);
-  opacity: .6;
-} */
 
 @keyframes homeBgText {
 

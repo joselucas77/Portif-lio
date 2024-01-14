@@ -16,21 +16,6 @@
   --second-bg-color: #112e42;
   --text-color: #ededed;
   --main-color: #00abf0;
-
-  /* --bg-color: #520c30;
-  --second-bg-color: #851e25;
-  --text-color: #f0ddbd;
-  --main-color: #ba3622; */
-
-  /* --bg-color: #9f111b;
-  --second-bg-color: #b11623;
-  --text-color: #cccccc;
-  --main-color: #292c37; */
-
-  /* --bg-color: #9e0004;
-  --second-bg-color: #b9030f;
-  --text-color: #e1e3db;
-  --main-color: #00abf0; */
 }
 
 html {
@@ -145,7 +130,7 @@ section {
   animation: none;
 }
 
-section:nth-child(odd) .animate.scroll,
+section:nth-child(even) .animate.scroll,
 .footer .animate.scroll {
   background-color: var(--second-bg-color);
 }
