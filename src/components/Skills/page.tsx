@@ -90,7 +90,7 @@ function Skills() {
               </div>
               <div className="progress">
                 <h3>
-                  NODE.JS <span>90%</span>
+                  NODE.JS <span>80%</span>
                 </h3>
                 <div className="bar">
                   <span></span>
@@ -98,7 +98,7 @@ function Skills() {
               </div>
               <div className="progress">
                 <h3>
-                  MYSQL <span>90%</span>
+                  MYSQL <span>80%</span>
                 </h3>
                 <div className="bar">
                   <span></span>

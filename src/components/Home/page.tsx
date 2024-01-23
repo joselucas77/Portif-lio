@@ -35,10 +35,10 @@ function Home() {
         </p>
 
         <div className="btn-box">
-          <a href="#" className="btn">
+          <a href="#contact" className="btn">
             Hire Me
           </a>
-          <a href="#" className="btn">
+          <a href="#contact" className="btn">
             Let's Talk
           </a>
           <span
