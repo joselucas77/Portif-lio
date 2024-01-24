@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
 import './styled.css';
 import img1 from '../../assets/img/lista-paises.png';
-import img2 from '../../assets/img/blog-next.jpg';
+import img2 from '../../assets/img/blog.png';
 import img3 from '../../assets/img/help-desk.png';
 import img4 from '../../assets/img/lista-tarefas.png';
-import img5 from '../../assets/img/mata-mosquito.png';
-import img6 from '../../assets/img/orcamento-pessoal.png';
+import img5 from '../../assets/img/game.png';
+import img6 from '../../assets/img/orcamento.png';
 
 function Projects() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
