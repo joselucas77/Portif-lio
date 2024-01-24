@@ -1,5 +1,5 @@
 import './styled.css';
-import img from '../../assets/img/meAbout.jpg';
+import img from '../../assets/img/perfil.jpg';
 
 function About() {
   return (
