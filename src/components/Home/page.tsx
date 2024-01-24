@@ -1,8 +1,6 @@
 import './styled.css';
-import { FaInstagram } from 'react-icons/fa6';
-import { FaLinkedinIn } from 'react-icons/fa6';
-import { FaGithub } from 'react-icons/fa6';
-import { FaAt } from 'react-icons/fa6';
+import { FaInstagram, FaLinkedinIn, FaGithub, FaAt } from 'react-icons/fa6';
+import cv from '../../assets/cv.pdf';
 
 function Home() {
   return (
@@ -36,10 +34,10 @@ function Home() {
 
         <div className="btn-box">
           <a href="#contact" className="btn">
-            Hire Me
-          </a>
-          <a href="#contact" className="btn">
             Let's Talk
+          </a>
+          <a href={cv} className="btn" download>
+            Download CV
           </a>
           <span
             className="animate"
